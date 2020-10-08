@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header__sidebar-toggle">
+            <div class="header__sidebar-toggle__hamburger"></div>
+            <div class="header__sidebar-toggle__hamburger"></div>
+            <div class="header__sidebar-toggle__hamburger"></div>
+        </div>
+        <input class="header__search" type="text" placeholder="Search tasks">
+        <div class="header__add">
+            <div class="header__add__icon"></div>
+        </div>
+    </header>
+    <main>
+        <div class="sidebar">
+            <div class="sidebar__header" id="today">
+                <svg class="sidebar__header-icon"><use xlink:href="#lnr-pushpin"></use></svg>
+                <h3 class="sidebar__header-text">Today</h3>
+            </div>
+            <div class="sidebar__header" id="tomorrow">
+                <svg class="sidebar__header-icon"><use xlink:href="#lnr-list"></use></svg>
+                <h3 class="sidebar__header-text">Tomorrow</h3>
+            </div>
+            <div class="sidebar__header" id="this-week">
+                <svg class="sidebar__header-icon"><use xlink:href="#lnr-calendar-full"></use></svg>
+                <h3 class="sidebar__header-text">This Week</h3>
+            </div>
+            <div class="sidebar__header" id="projects">
+                <div class="projects">
+                    <div class="sidebar__header-icon projects__collapse">&#9660;</div>
+                    <h3 class="sidebar__header-text">Projects</h3>
+                    <div class="projects__add"></div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <h2 class="content__header">Today</h2>
+        </div>
+    </main>
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
