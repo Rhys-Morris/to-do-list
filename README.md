@@ -17,3 +17,4 @@ Note currently the calendar timing is only set for my local timezone (Australian
 **Future Plans**
 - Fix timezone issues
 - Add responsive design for mobile devices
+- UI/UX improvements
